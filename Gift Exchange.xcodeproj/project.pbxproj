@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C974A78268E2E64001A7CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974A77268E2E64001A7CB0 /* AppDelegate.swift */; };
+		8C974A7A268E2E64001A7CB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974A79268E2E64001A7CB0 /* SceneDelegate.swift */; };
+		8C974A7C268E2E64001A7CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974A7B268E2E64001A7CB0 /* ViewController.swift */; };
+		8C974A7F268E2E64001A7CB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C974A7D268E2E64001A7CB0 /* Main.storyboard */; };
+		8C974A81268E2E65001A7CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C974A80268E2E65001A7CB0 /* Assets.xcassets */; };
+		8C974A84268E2E66001A7CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C974A82268E2E66001A7CB0 /* LaunchScreen.storyboard */; };
+		8C974A8F268E2E66001A7CB0 /* Gift_ExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974A8E268E2E66001A7CB0 /* Gift_ExchangeTests.swift */; };
+		8C974A9A268E2E66001A7CB0 /* Gift_ExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974A99268E2E66001A7CB0 /* Gift_ExchangeUITests.swift */; };
+		8C974AA9268E495A001A7CB0 /* EtsyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974AA8268E495A001A7CB0 /* EtsyAPI.swift */; };
+		8C974AAB2694EE43001A7CB0 /* ListingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974AAA2694EE43001A7CB0 /* ListingResponse.swift */; };
+		8C974AAD26962579001A7CB0 /* ListingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974AAC26962579001A7CB0 /* ListingCell.swift */; };
+		8CB20847269788190070F256 /* imageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB20846269788190070F256 /* imageResponse.swift */; };
+		8CB2084A269C9FB10070F256 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB20849269C9FB10070F256 /* String.swift */; };
+		8CB2084C269E1C3E0070F256 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2084B269E1C3E0070F256 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C974A8B268E2E66001A7CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C974A6C268E2E64001A7CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C974A73268E2E64001A7CB0;
+			remoteInfo = "Gift Exchange";
+		};
+		8C974A96268E2E66001A7CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C974A6C268E2E64001A7CB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C974A73268E2E64001A7CB0;
+			remoteInfo = "Gift Exchange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C974A74268E2E64001A7CB0 /* Gift Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gift Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C974A77268E2E64001A7CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C974A79268E2E64001A7CB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C974A7B268E2E64001A7CB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C974A7E268E2E64001A7CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C974A80268E2E65001A7CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C974A83268E2E66001A7CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C974A85268E2E66001A7CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C974A8A268E2E66001A7CB0 /* Gift ExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gift ExchangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C974A8E268E2E66001A7CB0 /* Gift_ExchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift_ExchangeTests.swift; sourceTree = "<group>"; };
+		8C974A90268E2E66001A7CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C974A95268E2E66001A7CB0 /* Gift ExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gift ExchangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C974A99268E2E66001A7CB0 /* Gift_ExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gift_ExchangeUITests.swift; sourceTree = "<group>"; };
+		8C974A9B268E2E66001A7CB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C974AA8268E495A001A7CB0 /* EtsyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtsyAPI.swift; sourceTree = "<group>"; };
+		8C974AAA2694EE43001A7CB0 /* ListingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingResponse.swift; sourceTree = "<group>"; };
+		8C974AAC26962579001A7CB0 /* ListingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingCell.swift; sourceTree = "<group>"; };
+		8CB20846269788190070F256 /* imageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageResponse.swift; sourceTree = "<group>"; };
+		8CB20849269C9FB10070F256 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		8CB2084B269E1C3E0070F256 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C974A71268E2E64001A7CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C974A87268E2E66001A7CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C974A92268E2E66001A7CB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C974A6B268E2E64001A7CB0 = {
+			isa = PBXGroup;
+			children = (
+				8C974A76268E2E64001A7CB0 /* Gift Exchange */,
+				8C974A8D268E2E66001A7CB0 /* Gift ExchangeTests */,
+				8C974A98268E2E66001A7CB0 /* Gift ExchangeUITests */,
+				8C974A75268E2E64001A7CB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C974A75268E2E64001A7CB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C974A74268E2E64001A7CB0 /* Gift Exchange.app */,
+				8C974A8A268E2E66001A7CB0 /* Gift ExchangeTests.xctest */,
+				8C974A95268E2E66001A7CB0 /* Gift ExchangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C974A76268E2E64001A7CB0 /* Gift Exchange */ = {
+			isa = PBXGroup;
+			children = (
+				8C974A77268E2E64001A7CB0 /* AppDelegate.swift */,
+				8CB20848269C9F8C0070F256 /* Extensions */,
+				8C974AA7268E4933001A7CB0 /* Etsy Api */,
+				8C974A79268E2E64001A7CB0 /* SceneDelegate.swift */,
+				8C974A7B268E2E64001A7CB0 /* ViewController.swift */,
+				8C974A7D268E2E64001A7CB0 /* Main.storyboard */,
+				8C974A80268E2E65001A7CB0 /* Assets.xcassets */,
+				8C974A82268E2E66001A7CB0 /* LaunchScreen.storyboard */,
+				8C974A85268E2E66001A7CB0 /* Info.plist */,
+				8C974AAC26962579001A7CB0 /* ListingCell.swift */,
+				8CB2084B269E1C3E0070F256 /* DetailViewController.swift */,
+			);
+			path = "Gift Exchange";
+			sourceTree = "<group>";
+		};
+		8C974A8D268E2E66001A7CB0 /* Gift ExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C974A8E268E2E66001A7CB0 /* Gift_ExchangeTests.swift */,
+				8C974A90268E2E66001A7CB0 /* Info.plist */,
+			);
+			path = "Gift ExchangeTests";
+			sourceTree = "<group>";
+		};
+		8C974A98268E2E66001A7CB0 /* Gift ExchangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C974A99268E2E66001A7CB0 /* Gift_ExchangeUITests.swift */,
+				8C974A9B268E2E66001A7CB0 /* Info.plist */,
+			);
+			path = "Gift ExchangeUITests";
+			sourceTree = "<group>";
+		};
+		8C974AA7268E4933001A7CB0 /* Etsy Api */ = {
+			isa = PBXGroup;
+			children = (
+				8C974AA8268E495A001A7CB0 /* EtsyAPI.swift */,
+				8C974AAA2694EE43001A7CB0 /* ListingResponse.swift */,
+				8CB20846269788190070F256 /* imageResponse.swift */,
+			);
+			path = "Etsy Api";
+			sourceTree = "<group>";
+		};
+		8CB20848269C9F8C0070F256 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CB20849269C9FB10070F256 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C974A73268E2E64001A7CB0 /* Gift Exchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C974A9E268E2E66001A7CB0 /* Build configuration list for PBXNativeTarget "Gift Exchange" */;
+			buildPhases = (
+				8C974A70268E2E64001A7CB0 /* Sources */,
+				8C974A71268E2E64001A7CB0 /* Frameworks */,
+				8C974A72268E2E64001A7CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gift Exchange";
+			productName = "Gift Exchange";
+			productReference = 8C974A74268E2E64001A7CB0 /* Gift Exchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C974A89268E2E66001A7CB0 /* Gift ExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C974AA1268E2E66001A7CB0 /* Build configuration list for PBXNativeTarget "Gift ExchangeTests" */;
+			buildPhases = (
+				8C974A86268E2E66001A7CB0 /* Sources */,
+				8C974A87268E2E66001A7CB0 /* Frameworks */,
+				8C974A88268E2E66001A7CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C974A8C268E2E66001A7CB0 /* PBXTargetDependency */,
+			);
+			name = "Gift ExchangeTests";
+			productName = "Gift ExchangeTests";
+			productReference = 8C974A8A268E2E66001A7CB0 /* Gift ExchangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C974A94268E2E66001A7CB0 /* Gift ExchangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C974AA4268E2E66001A7CB0 /* Build configuration list for PBXNativeTarget "Gift ExchangeUITests" */;
+			buildPhases = (
+				8C974A91268E2E66001A7CB0 /* Sources */,
+				8C974A92268E2E66001A7CB0 /* Frameworks */,
+				8C974A93268E2E66001A7CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C974A97268E2E66001A7CB0 /* PBXTargetDependency */,
+			);
+			name = "Gift ExchangeUITests";
+			productName = "Gift ExchangeUITests";
+			productReference = 8C974A95268E2E66001A7CB0 /* Gift ExchangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C974A6C268E2E64001A7CB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8C974A73268E2E64001A7CB0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					8C974A89268E2E66001A7CB0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8C974A73268E2E64001A7CB0;
+					};
+					8C974A94268E2E66001A7CB0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8C974A73268E2E64001A7CB0;
+					};
+				};
+			};
+			buildConfigurationList = 8C974A6F268E2E64001A7CB0 /* Build configuration list for PBXProject "Gift Exchange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C974A6B268E2E64001A7CB0;
+			productRefGroup = 8C974A75268E2E64001A7CB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C974A73268E2E64001A7CB0 /* Gift Exchange */,
+				8C974A89268E2E66001A7CB0 /* Gift ExchangeTests */,
+				8C974A94268E2E66001A7CB0 /* Gift ExchangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C974A72268E2E64001A7CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C974A84268E2E66001A7CB0 /* LaunchScreen.storyboard in Resources */,
+				8C974A81268E2E65001A7CB0 /* Assets.xcassets in Resources */,
+				8C974A7F268E2E64001A7CB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C974A88268E2E66001A7CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C974A93268E2E66001A7CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C974A70268E2E64001A7CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB2084C269E1C3E0070F256 /* DetailViewController.swift in Sources */,
+				8C974AAD26962579001A7CB0 /* ListingCell.swift in Sources */,
+				8C974A7C268E2E64001A7CB0 /* ViewController.swift in Sources */,
+				8CB20847269788190070F256 /* imageResponse.swift in Sources */,
+				8C974AAB2694EE43001A7CB0 /* ListingResponse.swift in Sources */,
+				8C974A78268E2E64001A7CB0 /* AppDelegate.swift in Sources */,
+				8C974A7A268E2E64001A7CB0 /* SceneDelegate.swift in Sources */,
+				8CB2084A269C9FB10070F256 /* String.swift in Sources */,
+				8C974AA9268E495A001A7CB0 /* EtsyAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C974A86268E2E66001A7CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C974A8F268E2E66001A7CB0 /* Gift_ExchangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C974A91268E2E66001A7CB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C974A9A268E2E66001A7CB0 /* Gift_ExchangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C974A8C268E2E66001A7CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C974A73268E2E64001A7CB0 /* Gift Exchange */;
+			targetProxy = 8C974A8B268E2E66001A7CB0 /* PBXContainerItemProxy */;
+		};
+		8C974A97268E2E66001A7CB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C974A73268E2E64001A7CB0 /* Gift Exchange */;
+			targetProxy = 8C974A96268E2E66001A7CB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C974A7D268E2E64001A7CB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C974A7E268E2E64001A7CB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C974A82268E2E66001A7CB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C974A83268E2E66001A7CB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C974A9C268E2E66001A7CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C974A9D268E2E66001A7CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C974A9F268E2E66001A7CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW98AX8UQM;
+				INFOPLIST_FILE = "Gift Exchange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Crystal.Gift-Exchange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C974AA0268E2E66001A7CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW98AX8UQM;
+				INFOPLIST_FILE = "Gift Exchange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Crystal.Gift-Exchange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C974AA2268E2E66001A7CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW98AX8UQM;
+				INFOPLIST_FILE = "Gift ExchangeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Crystal.Gift-ExchangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gift Exchange.app/Gift Exchange";
+			};
+			name = Debug;
+		};
+		8C974AA3268E2E66001A7CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW98AX8UQM;
+				INFOPLIST_FILE = "Gift ExchangeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Crystal.Gift-ExchangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gift Exchange.app/Gift Exchange";
+			};
+			name = Release;
+		};
+		8C974AA5268E2E66001A7CB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW98AX8UQM;
+				INFOPLIST_FILE = "Gift ExchangeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Crystal.Gift-ExchangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gift Exchange";
+			};
+			name = Debug;
+		};
+		8C974AA6268E2E66001A7CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW98AX8UQM;
+				INFOPLIST_FILE = "Gift ExchangeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Crystal.Gift-ExchangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gift Exchange";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C974A6F268E2E64001A7CB0 /* Build configuration list for PBXProject "Gift Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C974A9C268E2E66001A7CB0 /* Debug */,
+				8C974A9D268E2E66001A7CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C974A9E268E2E66001A7CB0 /* Build configuration list for PBXNativeTarget "Gift Exchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C974A9F268E2E66001A7CB0 /* Debug */,
+				8C974AA0268E2E66001A7CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C974AA1268E2E66001A7CB0 /* Build configuration list for PBXNativeTarget "Gift ExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C974AA2268E2E66001A7CB0 /* Debug */,
+				8C974AA3268E2E66001A7CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C974AA4268E2E66001A7CB0 /* Build configuration list for PBXNativeTarget "Gift ExchangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C974AA5268E2E66001A7CB0 /* Debug */,
+				8C974AA6268E2E66001A7CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C974A6C268E2E64001A7CB0 /* Project object */;
+}
