@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailViewController:UIViewController{
+class DetailViewController:UIViewController,UIScrollViewDelegate{
     let myImageView=UIImageView()
     var currentIndex=0
     var UIImages:[UIImage]=[]
@@ -28,6 +28,13 @@ class DetailViewController:UIViewController{
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
+        swipeRight.direction = UISwipeGestureRecognizer.Direction.right
+        self.myImageView.addGestureRecognizer(swipeRight)
+
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(respondToSwipeGesture))
+        swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
+        self.myImageView.addGestureRecognizer(swipeLeft)
         setUp()
         view.backgroundColor = .white
     }
@@ -41,6 +48,7 @@ class DetailViewController:UIViewController{
         
     }
     func setUpImage(){ //UIPageControll
+        myImageView.isUserInteractionEnabled = true
         myImageView.translatesAutoresizingMaskIntoConstraints = false
         self.view.addSubview(myImageView)//Just have to use this to show up
         NSLayoutConstraint.activate([
@@ -52,8 +60,6 @@ class DetailViewController:UIViewController{
         EtsyAPI().getImages(id: listing.listing_id, completion: {images in
             DispatchQueue.main.async { //willswitch to main thread
                 // Create URL into UIImage
-               
-                var circleLayers:[CAShapeLayer]=[]
                 for image in images{
                     let imageUrlString = image.url_fullxfull
                     let imageUrl = URL(string: imageUrlString)!
@@ -65,6 +71,36 @@ class DetailViewController:UIViewController{
                 }
             }
         )
+    }
+    
+    @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
+
+       if let swipeGesture = gesture as? UISwipeGestureRecognizer {
+
+
+           switch swipeGesture.direction {
+           case UISwipeGestureRecognizer.Direction.left:
+               
+               if currentIndex == UIImages.count - 1 {
+                   currentIndex = 0
+
+               }else{
+                   currentIndex += 1
+               }
+               myImageView.image = UIImages[currentIndex]
+
+           case UISwipeGestureRecognizer.Direction.right:
+               if currentIndex == 0 {
+                   currentIndex = UIImages.count - 1
+               }else{
+                   currentIndex -= 1
+               }
+            myImageView.image = UIImages[currentIndex]
+            
+           default:
+               break
+           }
+       }
     }
     func setUpImageButtons(){
         self.view.addSubview(backButton)
