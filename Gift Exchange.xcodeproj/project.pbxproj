@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C6CBBBE26A7280700EC4D0E /* CarouselViewPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CBBBD26A7280700EC4D0E /* CarouselViewPageController.swift */; };
+		8C6CBBC126A7298800EC4D0E /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6CBBC026A7298800EC4D0E /* CarouselItem.swift */; };
 		8C974A78268E2E64001A7CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974A77268E2E64001A7CB0 /* AppDelegate.swift */; };
 		8C974A7A268E2E64001A7CB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974A79268E2E64001A7CB0 /* SceneDelegate.swift */; };
 		8C974A7C268E2E64001A7CB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C974A7B268E2E64001A7CB0 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C6CBBBD26A7280700EC4D0E /* CarouselViewPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewPageController.swift; sourceTree = "<group>"; };
+		8C6CBBC026A7298800EC4D0E /* CarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItem.swift; sourceTree = "<group>"; };
 		8C974A74268E2E64001A7CB0 /* Gift Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gift Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C974A77268E2E64001A7CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C974A79268E2E64001A7CB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C6CBBBF26A7297000EC4D0E /* item */ = {
+			isa = PBXGroup;
+			children = (
+				8C6CBBC026A7298800EC4D0E /* CarouselItem.swift */,
+			);
+			path = item;
+			sourceTree = "<group>";
+		};
 		8C974A6B268E2E64001A7CB0 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +123,7 @@
 		8C974A76268E2E64001A7CB0 /* Gift Exchange */ = {
 			isa = PBXGroup;
 			children = (
+				8C6CBBBF26A7297000EC4D0E /* item */,
 				8C974A77268E2E64001A7CB0 /* AppDelegate.swift */,
 				8CB20848269C9F8C0070F256 /* Extensions */,
 				8C974AA7268E4933001A7CB0 /* Etsy Api */,
@@ -122,6 +135,7 @@
 				8C974A85268E2E66001A7CB0 /* Info.plist */,
 				8C974AAC26962579001A7CB0 /* ListingCell.swift */,
 				8CB2084B269E1C3E0070F256 /* DetailViewController.swift */,
+				8C6CBBBD26A7280700EC4D0E /* CarouselViewPageController.swift */,
 			);
 			path = "Gift Exchange";
 			sourceTree = "<group>";
@@ -293,11 +307,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB2084C269E1C3E0070F256 /* DetailViewController.swift in Sources */,
+				8C6CBBC126A7298800EC4D0E /* CarouselItem.swift in Sources */,
 				8C974AAD26962579001A7CB0 /* ListingCell.swift in Sources */,
 				8C974A7C268E2E64001A7CB0 /* ViewController.swift in Sources */,
 				8CB20847269788190070F256 /* imageResponse.swift in Sources */,
 				8C974AAB2694EE43001A7CB0 /* ListingResponse.swift in Sources */,
 				8C974A78268E2E64001A7CB0 /* AppDelegate.swift in Sources */,
+				8C6CBBBE26A7280700EC4D0E /* CarouselViewPageController.swift in Sources */,
 				8C974A7A268E2E64001A7CB0 /* SceneDelegate.swift in Sources */,
 				8CB2084A269C9FB10070F256 /* String.swift in Sources */,
 				8C974AA9268E495A001A7CB0 /* EtsyAPI.swift in Sources */,

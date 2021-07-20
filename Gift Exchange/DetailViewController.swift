@@ -44,17 +44,18 @@ class DetailViewController:UIViewController{
             myImageView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
             myImageView.heightAnchor.constraint(equalTo: self.view.widthAnchor)
         ])
-        EtsyAPI().getImages(id: listing.listing_id, completion: {images in
-            DispatchQueue.main.async { //willswitch to main thread
-                // Create URL into UIImage
-                let imageUrlString = images[0].url_fullxfull
-                let imageUrl = URL(string: imageUrlString)!
-                let imageData = try! Data(contentsOf: imageUrl)
-                let image = UIImage(data: imageData)
-                self.myImageView.image = image
-                }
-            }
-        )
+//        EtsyAPI().getImages(id: listing.listing_id, completion: {images in
+//            DispatchQueue.main.async { //willswitch to main thread
+//                // Create URL into UIImage
+//                let imageUrlString = images[0].url_fullxfull
+//                let imageUrl = URL(string: imageUrlString)!
+//                let imageData = try! Data(contentsOf: imageUrl)
+//                let image = UIImage(data: imageData)
+//                self.myImageView.image = image
+//                }
+//            }
+//        )
+        
     }
     func setUpStackView(){
     myStack.axis = .vertical
