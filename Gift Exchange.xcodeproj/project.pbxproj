@@ -21,6 +21,7 @@
 		8CB20847269788190070F256 /* imageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB20846269788190070F256 /* imageResponse.swift */; };
 		8CB2084A269C9FB10070F256 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB20849269C9FB10070F256 /* String.swift */; };
 		8CB2084C269E1C3E0070F256 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2084B269E1C3E0070F256 /* DetailViewController.swift */; };
+		8CB2085226A083BB0070F256 /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB2085126A083BB0070F256 /* DetailPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		8CB20846269788190070F256 /* imageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageResponse.swift; sourceTree = "<group>"; };
 		8CB20849269C9FB10070F256 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		8CB2084B269E1C3E0070F256 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8CB2085126A083BB0070F256 /* DetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				8C974A85268E2E66001A7CB0 /* Info.plist */,
 				8C974AAC26962579001A7CB0 /* ListingCell.swift */,
 				8CB2084B269E1C3E0070F256 /* DetailViewController.swift */,
+				8CB2085126A083BB0070F256 /* DetailPageViewController.swift */,
 			);
 			path = "Gift Exchange";
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB2085226A083BB0070F256 /* DetailPageViewController.swift in Sources */,
 				8CB2084C269E1C3E0070F256 /* DetailViewController.swift in Sources */,
 				8C974AAD26962579001A7CB0 /* ListingCell.swift in Sources */,
 				8C974A7C268E2E64001A7CB0 /* ViewController.swift in Sources */,
